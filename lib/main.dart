@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ledger_mobile/presentation/pages/home_page.dart';
+import 'package:ledger_mobile/presentation/pages/dashboard_page.dart';
 
 void main() {
   runApp(const LedgerMobileApp());
@@ -13,7 +13,7 @@ class LedgerMobileApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(colorScheme: .fromSeed(seedColor: Colors.deepPurple)),
-      home: const HomePage(title: 'Flutter Demo Home Page'),
+      home: const DashboardPage(title: 'Flutter Demo Home Page'),
     );
   }
 }
